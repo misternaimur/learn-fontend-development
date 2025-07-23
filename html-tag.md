@@ -6,7 +6,7 @@ Block line - <address> <article> <aside> <blockquote> <canvas><dd> <div> <dl> <d
 
 container ta - ul , ol , div ,
 
-
+Default Structure using ( Shift + 1 ) !
 
 hyper text --->  click able tag 
 <a href="#url">text</a>  <!-- anchor -->    <!-- hyper text referench --- ( href -> Arrtibute )-->
