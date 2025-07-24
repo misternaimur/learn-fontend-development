@@ -28,3 +28,7 @@ flex box --- ( display:flex) Block item gulo inline items hoi jai
 5. flex-wrap :
 6. grid-template-columns:
 
+
+#Resposive 
+
+
