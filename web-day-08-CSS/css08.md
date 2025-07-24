@@ -21,9 +21,10 @@ Css tag :
 
 flex box --- ( display:flex) Block item gulo inline items hoi jai 
 
-1. display :  flex 
+1. display : inline / Block / flex / grid 
 2. Justify content : 
 3. align- items : 
 4. flex-direction : 
 5. flex-wrap :
+6. grid-template-columns:
 
