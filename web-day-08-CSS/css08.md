@@ -31,4 +31,11 @@ flex box --- ( display:flex) Block item gulo inline items hoi jai
 
 #Resposive 
 
+- viewport meta tag 
+- css relative unit 
+- body max width and horizontal center align 
+- image fluid 
+- two colum flex and use media query with flex direction colum 
+- multi colum : grid layout 
+- menu responsive : will need javascript 
 
