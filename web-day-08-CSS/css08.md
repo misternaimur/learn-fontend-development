@@ -28,6 +28,7 @@ flex box --- ( display:flex) Block item gulo inline items hoi jai
 5. flex-wrap :
 6. grid-template-columns:
 
+-----------------------------------------------------------------------------------
 
 #Resposive 
 
@@ -38,4 +39,19 @@ flex box --- ( display:flex) Block item gulo inline items hoi jai
 - two colum flex and use media query with flex direction colum 
 - multi colum : grid layout 
 - menu responsive : will need javascript 
+
+-----------------------------------------------------------------------------------
+
+Interview important - flex vs Grid 
+
+One Dimensional --- flex 
+two Dimensional --- grid 
+
+Flex - Focuses on Content Flow Content first 
+Grid - Focuses on Content Flow placement---- first 
+
+Media Query ; 
+
+------------------------------------------------
+
 
