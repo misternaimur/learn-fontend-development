@@ -47,8 +47,8 @@ Interview important - flex vs Grid
 One Dimensional --- flex 
 two Dimensional --- grid 
 
-Flex - Focuses on Content Flow Content first 
-Grid - Focuses on Content Flow placement---- first 
+Flex - Focuses on Content Flow Content first .
+Grid - Focuses on Content Flow placement---- first .
 
 Media Query ; 
 
