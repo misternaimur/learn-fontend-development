@@ -3,40 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./layout.css">
+    <title>Flexible</title>
+    <style>
+        .container{
+            display: flex;
+            gap: 10px;
+        }
+        .container-2{
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            
+        }
+        .item{
+            width: 200px;
+            height: 100px;
+            
+            background-color:chartreuse;
+            border: 1px solid black;
+            
+            
+        }
+        .box{
+            background-color: blueviolet;
+            padding:10px;
+            border-radius: 10px;
+
+        }
+        /* small */
+        @media screen and (max-width:576px) {
+            .container{
+                flex-direction:column;
+            }            
+        }
+    </style>
 </head>
-<body class="container">
-    <header class="header">
-        <h3> The <header></header></h3>
-    </header>
-    <nav class="nav">
-        <ul>
-            <li><a href="">Nav-1</a></li>
-            <li><a href="">Nav-2</a></li>
-            <li><a href="">Nav-3</a></li>
-        </ul>
-    </nav>
-    <main class="main">
-        <article>
-            <h3>Main article-1</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi sint, minus vel eum vero, voluptatum, voluptas optio commodi dolores obcaecati enim quae consequatur quidem. Ab cupiditate necessitatibus est laborum asperiores.</p>
-        </article>
-        <article>
-            <h3>Main article-2</h3>
-            <p>Cum animi assumenda laudantium repellendus nemo est dicta nesciunt ducimus provident deleniti unde, beatae sit blanditiis explicabo molestias laborum voluptatum ullam fugiat molestiae commodi eius ad? In sequi minus officia.</p>
-        </article>
-    </main>
-    <aside>
-        <div class="sidebar">
-            <h4>Sidebar</h4>
+<body>
+    <h2>Flexible Flex </h2>
+    <div class="container">
+        <div class="box">
+            <h1>First box</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed voluptate magni soluta dolores consequatur eveniet eius animi alias? Fugit neque amet facilis quasi beatae ullam voluptatem nam odio porro culpa!</p>
         </div>
-        <div class="advertise">
-            <h3>Advertise</h3>
+        <div class="box">
+        <h1>First box</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, maxime rerum! Fugit sed in quod voluptatem expedita praesentium possimus labore dolorem eum? Nemo repellendus odio, fugiat culpa in pariatur quae.</p>
         </div>
-    </aside>
-    <footer class="footer">
-        <h3> THe footer</h3>
-    </footer>
+    </div>
+    <div class="container-2">
+        <div class="item">box-1</div>
+        <div class="item">box-2</div>
+        <div class="item">box-3</div>
+        <div class="item">box-4</div>
+        <div class="item">box-5</div>
+        <div class="item">box-6</div>
+        <div class="item">box-7</div>
+        <div class="item">box-8</div>
+        <div class="item">box-9</div>
+        <div class="item">box-10</div>
+    </div>
 </body>
 </html>
