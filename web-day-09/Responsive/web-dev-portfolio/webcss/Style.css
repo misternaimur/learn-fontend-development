@@ -203,6 +203,10 @@ footer input[type="text"],footer input[type="Email"],footer textarea
 
 @media screen and (max-width: 576px )
 {
+    *{
+        margin: 2%;
+        padding: auto;
+    }
     .secondary-bg{
         
         flex-direction:column;
@@ -220,6 +224,13 @@ footer input[type="text"],footer input[type="Email"],footer textarea
 }
 footer input[type="text"],footer input[type="Email"],footer textarea {
     width: 90%;
+}
+.skills-container{
+    flex-direction: column;
+}
+main section {
+    margin: 0%;
+    width: calc(100% - 20%);
 }
     
 }
