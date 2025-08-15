@@ -251,3 +251,8 @@ main section
 
     
 }
+
+/*  Table Media Query  */
+@media screen and ( max-width: 577 )  { 
+    
+}
